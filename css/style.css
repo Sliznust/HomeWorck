@@ -40,10 +40,10 @@ p .first-letter:first-child{
 p .first-line:first-child{
     font-style: italic;
 }
-.first-p:active{
+.first-p::selection{
     color: blue;
 }
-.second-p:active{
+.second-p::selection{
     color: red;
 }
 ::-webkit-input-placeholder { /* WebKit browsers */
